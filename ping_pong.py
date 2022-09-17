@@ -2,7 +2,7 @@ from pygame import *
 width = 600
 height = 500
 fon = (200,200,100)
-window = display.set_mode((win_width,win_height))
+window = display.set_mode((width,height))
 window.fill(fon)
 clock = time.Clock()
 FPS = 60
